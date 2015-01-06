@@ -1,4 +1,4 @@
-FROM xcgd/odoo:latest
+FROM inspiredbusiness/odoo:latest
 
 MAINTAINER Chris White <chris@inspiredbusiness.com.au>
 
