@@ -32,8 +32,8 @@ Enjoy :)
 
 Don't forget to mount volumes for your oddo addons and the eclipse workspace
 
-```/opt/dev/workspace```
+`/opt/dev/workspace`
 
-```/opt/odoo/additional_addons```
+`/opt/odoo/additional_addons`
 
 Based off: xcgd/odoo
