@@ -35,4 +35,4 @@ Don't forget to mount volumes for your oddo addons and the eclipse workspace
 /opt/dev/workspace
 /opt/odoo/additional_addons
 
-Based off: xcgd/postgresql
+Based off: xcgd/odoo
