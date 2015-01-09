@@ -52,5 +52,5 @@ USER odoo
 
 CMD bash /opt/dev/bin/start-eclipise
 
-VOLUME ["/opt/dev/workspace"]
+VOLUME ["/opt/dev/workspace", "/tmp/.X11-unix"]
 ENTRYPOINT []
