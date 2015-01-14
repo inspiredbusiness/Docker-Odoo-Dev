@@ -19,13 +19,13 @@ WORKDIR /opt/dev
 RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/luna/SR1/eclipse-java-luna-SR1-linux-gtk-x86_64.tar.gz | tar -xvz
 
 WORKDIR /opt/dev/eclipse
-RUN ./eclipse \
-	-application org.eclipse.equinox.p2.director \
-	-repository http://pydev.org/updates \
-	-installIUs org.python.pydev.feature.feature.group \
-	-noSplash \
-	-clean \
-	-purgeHistory
+#RUN ./eclipse \
+#	-application org.eclipse.equinox.p2.director \
+#	-repository http://pydev.org/updates \
+#	-installIUs org.python.pydev.feature.feature.group \
+#	-noSplash \
+#	-clean \
+#	-purgeHistory
 
 RUN echo "<?xml version='1.0' encoding='UTF-8'?><projectDescription><name>Odoo</name><comment /><projects /><buildSpec><buildCommand><name>org.python.pydev.PyDevBuilder</name><arguments /></buildCommand></buildSpec><natures><nature>org.python.pydev.pythonNature</nature></natures></projectDescription>" > /opt/odoo/.project
 
