@@ -8,7 +8,12 @@ RUN apt-get update \
             curl \
             openjdk-7-jdk \
         && mkdir -p /opt/dev \
-        && chown odoo:odoo -R /opt/dev
+        && chown odoo:odoo -R /opt/dev \
+        && touch /opt/dev/workspace/workspace \
+        && mkdir /opt/odoo \
+        && chown odoo:odoo -R /opt/odoo \
+        && echo "odoo ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/odoo \
+        && chmod 0440 /etc/sudoers.d/odoo
 
 USER odoo
 RUN mkdir -p /opt/dev/eclipse \
@@ -27,18 +32,6 @@ WORKDIR /opt/dev/eclipse
 #	-clean \
 #	-purgeHistory
 
-RUN echo "<?xml version='1.0' encoding='UTF-8'?><projectDescription><name>Odoo</name><comment /><projects /><buildSpec><buildCommand><name>org.python.pydev.PyDevBuilder</name><arguments /></buildCommand></buildSpec><natures><nature>org.python.pydev.pythonNature</nature></natures></projectDescription>" > /opt/odoo/.project
-
-USER 0
-RUN touch /opt/dev/workspace/workspace \
-        && chown odoo:odoo -R /opt/dev \
-        && chown odoo:odoo -R /opt/dev/workspace \
-        && chown odoo:odoo -R /opt/odoo
-
-RUN echo "odoo ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/odoo
-RUN chmod 0440 /etc/sudoers.d/odoo
-
-USER odoo
 ADD start-odoo.py /opt/odoo/start-odoo.py
 CMD sudo mkdir /opt/dev/bin
 CMD sudo chmod +x /opt/dev/bin
