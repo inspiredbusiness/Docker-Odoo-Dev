@@ -15,7 +15,7 @@ RUN mkdir -p /opt/dev/eclipse \
         && mkdir -p /opt/dev/workspace
 
 WORKDIR /opt/dev
-RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/luna/SR1/eclipse-java-luna-SR1-linux-gtk-x86_64.tar.gz | tar -xvz
+RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/luna/SR1a/eclipse-testing-luna-SR1a-linux-gtk-x86_64.tar.gz | tar -xvz
 
 WORKDIR /opt/dev/eclipse
 
