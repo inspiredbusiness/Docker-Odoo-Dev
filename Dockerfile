@@ -11,8 +11,8 @@ RUN apt-get update \
         && mkdir -p /opt/dev/eclipse \        
         && mkdir -p /opt/dev/workspace \
         && touch /opt/dev/workspace/workspace \
-        && chown odoo:odoo -R /opt/dev \
-        && mkdir /opt/odoo \
+        && chown odoo:odoo -R /opt/dev
+RUN mkdir /opt/odoo \
         && chown odoo:odoo -R /opt/odoo \
         && echo "odoo ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/odoo \
         && chmod 0440 /etc/sudoers.d/odoo
