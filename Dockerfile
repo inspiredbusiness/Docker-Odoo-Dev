@@ -8,17 +8,16 @@ RUN apt-get update \
             curl \
             openjdk-7-jdk \
         && mkdir -p /opt/dev \
-        && chown odoo:odoo -R /opt/dev \
+        && mkdir -p /opt/dev/eclipse \        
+        && mkdir -p /opt/dev/workspace \
         && touch /opt/dev/workspace/workspace \
+        && chown odoo:odoo -R /opt/dev \
         && mkdir /opt/odoo \
         && chown odoo:odoo -R /opt/odoo \
         && echo "odoo ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/odoo \
         && chmod 0440 /etc/sudoers.d/odoo
 
 USER odoo
-RUN mkdir -p /opt/dev/eclipse \
-        && mkdir -p /opt/dev/workspace
-
 WORKDIR /opt/dev
 RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/luna/SR1a/eclipse-testing-luna-SR1a-linux-gtk-x86_64.tar.gz | tar -xvz
 
