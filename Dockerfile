@@ -10,15 +10,15 @@ RUN apt-get update \
         && mkdir -p /opt/dev \
         && mkdir -p /opt/dev/eclipse \        
         && mkdir -p /opt/dev/workspace \
+        && mkdir -p /opt/odoo/additional_addons \
         && touch /opt/dev/workspace/workspace \
-        && chown odoo:odoo -R /opt/dev
-        #&& /opt/odoo \
+        && chown odoo:odoo -R /opt/dev \
         && chown odoo:odoo -R /opt/odoo \
-        && echo "odoo ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/odoo \
         && chmod 0440 /etc/sudoers.d/odoo \
         && chown odoo:odoo -R /opt/dev/workspace \
-        && chown odoo:odoo -R /opt/odoo/sources \
-        && chown odoo:odoo -R /opt/odoo/addiational_addons
+        #&& chown odoo:odoo -R /opt/odoo/sources \
+        && chown odoo:odoo -R /opt/odoo/additional_addons \
+        && echo "odoo ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/odoo
 
 USER odoo
 WORKDIR /opt/dev
