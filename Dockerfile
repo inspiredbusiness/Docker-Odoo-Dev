@@ -14,7 +14,6 @@ RUN apt-get update \
         && touch /opt/dev/workspace/workspace \
         && chown odoo:odoo -R /opt/dev \
         && chown odoo:odoo -R /opt/odoo \
-        && chmod 0440 /etc/sudoers.d/odoo \
         && chown odoo:odoo -R /opt/dev/workspace \
         #&& chown odoo:odoo -R /opt/odoo/sources \
         && chown odoo:odoo -R /opt/odoo/additional_addons
