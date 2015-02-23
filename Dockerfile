@@ -17,8 +17,7 @@ RUN apt-get update \
         && chmod 0440 /etc/sudoers.d/odoo \
         && chown odoo:odoo -R /opt/dev/workspace \
         #&& chown odoo:odoo -R /opt/odoo/sources \
-        && chown odoo:odoo -R /opt/odoo/additional_addons \
-        && echo "odoo ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/odoo
+        && chown odoo:odoo -R /opt/odoo/additional_addons
 
 USER odoo
 WORKDIR /opt/dev
