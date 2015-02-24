@@ -43,6 +43,6 @@ CMD chmod +x /opt/dev/bin/start-eclipise
 
 USER odoo
 CMD bash /opt/dev/bin/start-eclipise
-
-VOLUME ["/opt/dev/workspace", "/tmp/.X11-unix"]
+#"/opt/dev/workspace"
+VOLUME ["/tmp/.X11-unix"]
 ENTRYPOINT []
