@@ -10,11 +10,13 @@ RUN apt-get update \
         && mkdir -p /opt/dev \
         && mkdir -p /opt/dev/eclipse \        
         && mkdir -p /opt/dev/workspace \
+        && mkdir -p /opt/dev/workspace2 \
         && mkdir -p /opt/odoo/additional_addons \
         && touch /opt/dev/workspace/workspace \
         && chown odoo:odoo -R /opt/dev \
         && chown odoo:odoo -R /opt/odoo \
         && chown odoo:odoo -R /opt/dev/workspace \
+        && chown odoo:odoo -R /opt/dev/workspace2 \
         #&& chown odoo:odoo -R /opt/odoo/sources \
         && chown odoo:odoo -R /opt/odoo/additional_addons
 
