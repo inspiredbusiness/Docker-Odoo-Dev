@@ -11,7 +11,6 @@ RUN apt-get update \
         && mkdir -p /opt/dev \
         && mkdir -p /opt/dev/eclipse \        
         && mkdir -p /opt/dev/workspace \
-        && mkdir -p /opt/dev/workspace2 \
         && mkdir -p /opt/odoo/additional_addons \
         && touch /opt/dev/workspace/workspace \
         && chown odoo:odoo -R /opt/dev \
@@ -47,6 +46,5 @@ CMD chmod +x /opt/dev/bin/start-eclipise
 
 USER odoo
 CMD bash /opt/dev/bin/start-eclipise
-#"/opt/dev/workspace"
-VOLUME ["/tmp/.X11-unix"]
+VOLUME ["/tmp/.X11-unix", "/opt/dev/workspace"]
 ENTRYPOINT []
