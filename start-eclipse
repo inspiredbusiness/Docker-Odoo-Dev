@@ -5,7 +5,7 @@ set -eo pipefail
 
 echo "Setting up permissions"
 sudo chown odoo:odoo -R /opt/dev/workspace
-sudo chown odoo:odoo -R /opt/odoo/sources
+#sudo chown odoo:odoo -R /opt/odoo/sources
 sudo chown odoo:odoo -R /opt/odoo/additional_addons
 
 echo "Starting Eclipse"
