@@ -17,7 +17,7 @@ RUN apt-get update \
 
 USER odoo
 WORKDIR /opt/odoo-dev
-RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/luna/SR1a/eclipse-testing-luna-SR1a-linux-gtk-x86_64.tar.gz | tar -xvz
+RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/luna/SR2/eclipse-testing-luna-SR2-linux-gtk-x86_64.tar.gz | tar -xvz
 
 WORKDIR /opt/odoo-dev/eclipse
 
