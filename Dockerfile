@@ -7,6 +7,7 @@ RUN apt-get update \
             libswt-gtk-3-java \
             curl \
             openjdk-7-jdk \
+            sudo \
         && mkdir -p /opt/dev \
         && mkdir -p /opt/dev/eclipse \        
         && mkdir -p /opt/dev/workspace \
@@ -16,9 +17,10 @@ RUN apt-get update \
         && chown odoo:odoo -R /opt/dev \
         && chown odoo:odoo -R /opt/odoo \
         && chown odoo:odoo -R /opt/dev/workspace \
-        && chown odoo:odoo -R /opt/dev/workspace2 \
         #&& chown odoo:odoo -R /opt/odoo/sources \
-        && chown odoo:odoo -R /opt/odoo/additional_addons
+        && chown odoo:odoo -R /opt/odoo/additional_addons \
+        && echo "odoo ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/odoo \
+        && chmod 0440 /etc/sudoers.d/odoo
 
 USER odoo
 WORKDIR /opt/dev
