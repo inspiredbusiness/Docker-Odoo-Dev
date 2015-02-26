@@ -8,43 +8,35 @@ RUN apt-get update \
             curl \
             openjdk-7-jdk \
             sudo \
-        && mkdir -p /opt/dev \
-        && mkdir -p /opt/dev/eclipse \        
-        && mkdir -p /opt/dev/workspace \
-        && mkdir -p /opt/odoo/additional_addons \
-        && touch /opt/dev/workspace/workspace \
-        && chown odoo:odoo -R /opt/dev \
+        && mkdir -p /opt/odoo-dev \
+        && chown odoo:odoo -R /opt/odoo-dev \
+        && mkdir -p /opt/odoo \
         && chown odoo:odoo -R /opt/odoo \
-        && chown odoo:odoo -R /opt/dev/workspace \
-        #&& chown odoo:odoo -R /opt/odoo/sources \
-        && chown odoo:odoo -R /opt/odoo/additional_addons \
         && echo "odoo ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/odoo \
         && chmod 0440 /etc/sudoers.d/odoo
 
 USER odoo
-WORKDIR /opt/dev
+WORKDIR /opt/odoo-dev
 RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/luna/SR1a/eclipse-testing-luna-SR1a-linux-gtk-x86_64.tar.gz | tar -xvz
 
-WORKDIR /opt/dev/eclipse
+WORKDIR /opt/odoo-dev/eclipse
 
-#RUN ./eclipse \
-#	-application org.eclipse.equinox.p2.director \
-#	-repository http://pydev.org/updates \
-#	-installIUs org.python.pydev.feature.feature.group \
-#	-noSplash \
-#	-clean \
-#	-purgeHistory
+RUN ./eclipse \
+	-application org.eclipse.equinox.p2.director \
+	-repository http://pydev.org/updates \
+	-installIUs org.python.pydev.feature.feature.group \
+	-noSplash \
+	-clean \
+	-purgeHistory
 
-ADD start-odoo.py /opt/odoo/start-odoo.py
-CMD sudo mkdir /opt/dev/bin
-CMD sudo chmod +x /opt/dev/bin
-ADD start-eclipse /opt/dev/bin/start-eclipise
-CMD sudo chmod +x /opt/dev/bin/start-eclipise
+CMD sudo mkdir /opt/odoo-dev/bin
+ADD start-debug-odoo.py /opt/odoo-dev/bin/start-debug-odoo.py
+ADD start-eclipse /opt/odoo-dev/bin/start-eclipse
 
 USER 0
-CMD chmod +x /opt/dev/bin/start-eclipise
+CMD chmod +x /opt/odoo-dev/bin/start-eclipse
 
 USER odoo
-CMD bash /opt/dev/bin/start-eclipise
-VOLUME ["/tmp/.X11-unix", "/opt/dev/workspace"]
+CMD bash /opt/odoo-dev/bin/start-eclipse
+VOLUME ["/tmp/.X11-unix", "/opt/odoo-dev/workspace"]
 ENTRYPOINT []
