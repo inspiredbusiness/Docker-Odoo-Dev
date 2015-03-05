@@ -3,6 +3,8 @@
 # fail hard and fast even on pipelines
 set -eo pipefail
 
+/run.sh
+
 echo "Setting up permissions"
 sudo chown odoo:odoo -R /opt/dev/workspace
 sudo chown odoo:odoo -R /opt/odoo/sources
