@@ -3,6 +3,8 @@
 # fail hard and fast even on pipelines
 set -eo pipefail
 
+/run.sh
+
 echo "Starting Eclipse"
 cd /opt/dev/workspace
 /opt/dev/eclipse/eclipse -data /opt/dev/workspace 
