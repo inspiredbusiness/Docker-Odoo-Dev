@@ -34,6 +34,6 @@ USER 0
 CMD chmod +x /opt/odoo-dev/bin/start-eclipse
 
 USER odoo
-CMD bash /opt/odoo-dev/bin/start-eclipse
+CMD /opt/odoo-dev/bin/start-eclipse
 VOLUME ["/tmp/.X11-unix", "/opt/odoo-dev/workspace"]
 ENTRYPOINT []
