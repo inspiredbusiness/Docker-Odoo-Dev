@@ -24,27 +24,12 @@ USER odoo
 WORKDIR /opt/dev
 RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/luna/SR1a/eclipse-testing-luna-SR1a-linux-gtk-x86_64.tar.gz | tar -xvz
 
-WORKDIR /opt/dev/eclipse
-
-#RUN ./eclipse \
-#	-application org.eclipse.equinox.p2.director \
-#	-repository http://pydev.org/updates \
-#	-installIUs org.python.pydev.feature.feature.group \
-#	-noSplash \
-#	-clean \
-#	-purgeHistory
-
-ADD start-odoo.py /opt/odoo/start-odoo.py
-CMD sudo mkdir /opt/dev/bin
-CMD sudo chmod +x /opt/dev/bin
-ADD start-eclipse /opt/dev/bin/start-eclipise
-CMD sudo chmod +x /opt/dev/bin/start-eclipise
-
 USER 0
-CMD chmod +x /opt/dev/bin/start-eclipise
-
-USER odoo
-CMD bash /opt/dev/bin/start-eclipise
+ADD start-odoo.py /opt/odoo/start-odoo.py
+RUN mkdir /opt/dev/bin
+RUN chmod +x /opt/dev/bin
+ADD start-eclipse /opt/dev/bin/start-eclipise
+RUN chmod +x /opt/dev/bin/start-eclipise
 
 VOLUME ["/opt/dev/workspace", "/tmp/.X11-unix"]
-ENTRYPOINT []
+ENTRYPOINT ["/opt/dev/bin/start-eclipise"]
