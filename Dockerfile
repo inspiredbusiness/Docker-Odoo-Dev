@@ -16,8 +16,8 @@ USER odoo
 WORKDIR /opt/odoo-dev
 RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/luna/SR2/eclipse-standard-luna-SR2-linux-gtk-x86_64.tar.gz | tar -xvz
 
-WORKDIR /opt/odoo-dev/eclipse
 
+WORKDIR /opt/odoo-dev/eclipse
 RUN ./eclipse \
 	-application org.eclipse.equinox.p2.director \
 	-repository http://pydev.org/updates \
@@ -26,14 +26,11 @@ RUN ./eclipse \
 	-clean \
 	-purgeHistory
 
-CMD sudo mkdir /opt/odoo-dev/bin
-ADD start-debug-odoo.py /opt/odoo-dev/bin/start-debug-odoo.py
-ADD start-eclipse /opt/odoo-dev/bin/start-eclipse
-
 USER 0
-CMD chmod +x /opt/odoo-dev/bin/start-eclipse
+RUN mkdir -p /opt/odoo-dev/bin
+ADD start-debug-odoo.py /opt/odoo-dev/bin/start-debug-odoo.py
+RUN chown odoo /opt/odoo-dev/bin/start-debug-odoo.py
+ADD start-eclipse /opt/odoo-dev/bin/start-eclipse
+RUN chmod +x /opt/odoo-dev/bin/start-eclipse
 
-USER odoo
-CMD /opt/odoo-dev/bin/start-eclipse
-VOLUME ["/tmp/.X11-unix", "/opt/odoo-dev/workspace"]
-ENTRYPOINT []
+ENTRYPOINT ["/opt/odoo-dev/bin/start-eclipse"]
