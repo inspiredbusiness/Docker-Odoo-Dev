@@ -7,29 +7,30 @@ RUN apt-get update \
             libswt-gtk-3-java \
             curl \
             openjdk-7-jdk \
-        && mkdir -p /opt/dev \
-        && mkdir -p /opt/dev/eclipse \        
-        && mkdir -p /opt/dev/workspace \
-        && touch /opt/dev/workspace/workspace \
-        && chown odoo:odoo -R /opt/dev
-        #&& /opt/odoo \
-        && chown odoo:odoo -R /opt/odoo \
-        && echo "odoo ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/odoo \
-        && chmod 0440 /etc/sudoers.d/odoo \
-        && chown odoo:odoo -R /opt/dev/workspace \
-        && chown odoo:odoo -R /opt/odoo/sources \
-        && chown odoo:odoo -R /opt/odoo/addiational_addons
+        && mkdir -p /opt/odoo-dev \
+        && chown odoo:odoo -R /opt/odoo-dev \
+        && mkdir -p /opt/odoo \
+        && chown odoo:odoo -R /opt/odoo
 
 USER odoo
-WORKDIR /opt/dev
-RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/luna/SR1a/eclipse-testing-luna-SR1a-linux-gtk-x86_64.tar.gz | tar -xvz
+WORKDIR /opt/odoo-dev
+RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/luna/SR2/eclipse-standard-luna-SR2-linux-gtk-x86_64.tar.gz | tar -xvz
+
+
+WORKDIR /opt/odoo-dev/eclipse
+RUN ./eclipse \
+	-application org.eclipse.equinox.p2.director \
+	-repository http://pydev.org/updates \
+	-installIUs org.python.pydev.feature.feature.group \
+	-noSplash \
+	-clean \
+	-purgeHistory
 
 USER 0
-ADD start-odoo.py /opt/odoo/start-odoo.py
-RUN mkdir /opt/dev/bin
-RUN chmod +x /opt/dev/bin
-ADD start-eclipse /opt/dev/bin/start-eclipise
-RUN chmod +x /opt/dev/bin/start-eclipise
+RUN mkdir -p /opt/odoo-dev/bin
+ADD start-debug-odoo.py /opt/odoo-dev/bin/start-debug-odoo.py
+RUN chown odoo /opt/odoo-dev/bin/start-debug-odoo.py
+ADD start-eclipse /opt/odoo-dev/bin/start-eclipse
+RUN chmod +x /opt/odoo-dev/bin/start-eclipse
 
-VOLUME ["/opt/dev/workspace", "/tmp/.X11-unix"]
-ENTRYPOINT ["/opt/dev/bin/start-eclipise"]
+ENTRYPOINT ["/opt/odoo-dev/bin/start-eclipse"]
