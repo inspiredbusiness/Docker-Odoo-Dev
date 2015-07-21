@@ -1,4 +1,4 @@
-FROM inspiredbusiness/docker-odoo:8.0-latest
+FROM inspiredbusiness/docker-odoo:8.0-2015-Q2.0-Chef
 
 MAINTAINER Chris White <chris@inspiredbusiness.com.au>
 
