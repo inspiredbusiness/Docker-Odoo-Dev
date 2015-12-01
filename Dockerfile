@@ -22,7 +22,7 @@ RUN apt-get update \
 
 USER odoo
 WORKDIR /opt/dev
-RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/luna/SR1a/eclipse-testing-luna-SR1a-linux-gtk-x86_64.tar.gz | tar -xvz
+RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/mars/R/eclipse-testing-mars-R-linux-gtk.tar.gz | tar -xvz
 
 USER 0
 ADD start-odoo.py /opt/odoo/start-odoo.py
