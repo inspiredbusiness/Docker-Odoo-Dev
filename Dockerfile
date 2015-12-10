@@ -17,13 +17,13 @@ WORKDIR /opt/odoo-dev
 RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/luna/SR1a/eclipse-standard-luna-SR1a-linux-gtk-x86_64.tar.gz | tar -xvz
 
 WORKDIR /opt/odoo-dev/eclipse
-#RUN ./eclipse \
-#	-application org.eclipse.equinox.p2.director \
-#	-repository http://pydev.org/updates \
-#	-installIUs org.python.pydev.feature.feature.group \
-#	-noSplash \
-#	-clean \
-#	-purgeHistory
+RUN ./eclipse \
+	-application org.eclipse.equinox.p2.director \
+	-repository http://pydev.org/updates \
+	-installIUs org.python.pydev.feature.feature.group \
+	-noSplash \
+	-clean \
+	-purgeHistory
 
 USER 0
 RUN mkdir -p /opt/odoo-dev/bin
