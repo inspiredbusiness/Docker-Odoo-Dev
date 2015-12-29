@@ -28,6 +28,7 @@ RUN ./eclipse \
 
 USER 0
 RUN mkdir -p /opt/odoo-dev/bin
+RUN mkdir -p /opt/odoo-dev/workspace
 ADD start-debug-odoo.py /opt/odoo-dev/bin/start-debug-odoo.py
 RUN chown odoo /opt/odoo-dev/bin/start-debug-odoo.py
 ADD start-eclipse /opt/odoo-dev/bin/start-eclipse
