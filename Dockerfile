@@ -34,4 +34,6 @@ RUN chown odoo /opt/odoo-dev/bin/start-debug-odoo.py
 ADD start-eclipse /opt/odoo-dev/bin/start-eclipse
 RUN chmod +x /opt/odoo-dev/bin/start-eclipse
 
+VOLUME /opt/odoo-dev/workspace
+
 ENTRYPOINT ["/opt/odoo-dev/bin/start-eclipse"]
