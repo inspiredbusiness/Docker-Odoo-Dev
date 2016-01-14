@@ -11,5 +11,4 @@ sudo chown odoo:odoo -R /opt/odoo-dev/workspace
 sudo chown odoo:odoo -R /opt/odoo/additional_addons
 
 echo "Starting Eclipse"
-sudo -u odoo /opt/odoo-dev/eclipse/eclipse -data /opt/odoo-dev/workspace 
-#-perspective org.python.pydev.ui.PythonPerspective
+sudo -u odoo /opt/odoo-dev/eclipse/eclipse -data /opt/odoo-dev/workspace -perspective org.python.pydev.ui.PythonPerspective
