@@ -19,7 +19,7 @@ RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/mars/R/eclips
 WORKDIR /opt/odoo-dev/eclipse
 RUN ./eclipse \
 	-application org.eclipse.equinox.p2.director \
-	-repository http://pydev.org/updates \
+	-repository https://dl.bintray.com/fabioz/pydev/latest/ \
 	-installIUs org.python.pydev.feature.feature.group \
 	-noSplash \
 	-clean \
