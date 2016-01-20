@@ -6,9 +6,9 @@ set -eo pipefail
 /run.sh norun
 
 echo "Setting up permissions"
-sudo chown odoo:odoo -R /opt/odoo-dev/workspace
+sudo chown odoo:odoo -R /var/lib/odoo
 #sudo chown odoo:odoo -R /opt/odoo/sources
 sudo chown odoo:odoo -R /opt/odoo/additional_addons
 
-echo "Starting Eclipse"
-sudo -u odoo /opt/odoo-dev/eclipse/eclipse -data /opt/odoo-dev/workspace -perspective org.python.pydev.ui.PythonPerspective
+echo "Starting Pycharm"
+sudo -u odoo /opt/odoo-dev/pycharm-community-5.0.3/bin/pycharm.sh /var/lib/odoo/PycharmProjects/Odoo
