@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
 import sys
-sys.path[0] = '/opt/odoo/sources/odoo'
-
 import openerp
 
 if sys.gettrace() != None:
