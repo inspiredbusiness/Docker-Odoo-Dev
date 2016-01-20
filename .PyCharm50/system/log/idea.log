@@ -1,0 +1,662 @@
+2016-01-20 02:11:02,256 [   8880]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-01-20 02:11:02,266 [   8890]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-143.1559.1, 22 Dec 2015 00:00) 
+2016-01-20 02:11:02,266 [   8890]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-34-generic, amd64) 
+2016-01-20 02:11:02,266 [   8890]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_91-b02 (Oracle Corporation) 
+2016-01-20 02:11:02,266 [   8890]   INFO -        #com.intellij.idea.Main - JVM: 24.91-b01 (OpenJDK 64-Bit Server VM) 
+2016-01-20 02:11:02,268 [   8892]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/odoo-dev/pycharm-community-5.0.3/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/opt/odoo-dev/pycharm-community-5.0.3/bin/pycharm64.vmoptions -XX:ErrorFile=/var/lib/odoo/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm50 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-01-20 02:11:02,269 [   8893]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext: [dnsns.jar, zipfs.jar, sunjce_provider.jar, localedata.jar, libatk-wrapper.so, icedtea-sound.jar, sunpkcs11.jar, java-atk-wrapper.jar] 
+2016-01-20 02:11:02,291 [   8915]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 22 ms 
+2016-01-20 02:11:02,389 [   9013]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2016-01-20 02:11:03,374 [   9998]   INFO - llij.ide.plugins.PluginManager - 12 plugins initialized in 932 ms 
+2016-01-20 02:11:03,375 [   9999]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), EditorConfig (1.0), Git Integration (8.1), GitHub (143.1559.1), IDEA CORE (143.SNAPSHOT), IPython Notebook (0.1), Python ReStructureText Integration (1.0), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-01-20 02:11:03,738 [  10362]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: '/var/lib/odoo/.PyCharm50/system/caches/names.dat' does not exist 
+2016-01-20 02:11:03,740 [  10364]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=748027904 
+2016-01-20 02:11:03,801 [  10425]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/odoo-dev/pycharm-community-5.0.3/bin/fsnotifier64 
+2016-01-20 02:11:03,811 [  10435]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2016-01-20 02:11:04,193 [  10817]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2016-01-20 02:11:04,193 [  10817]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2016-01-20 02:11:04,881 [  11505]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-01-20 02:11:06,438 [  13062]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/odoo-dev/pycharm-community-5.0.3/lib/pycharm.jar!/resources/html5-schema/html5.rnc 
+2016-01-20 02:11:06,438 [  13062]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /opt/odoo-dev/pycharm-community-5.0.3/lib/pycharm.jar!/resources/html5-schema/xhtml5.rnc 
+2016-01-20 02:11:06,438 [  13062]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /opt/odoo-dev/pycharm-community-5.0.3/lib/pycharm.jar!/resources/html5-schema/html5chars.ent 
+2016-01-20 02:11:06,775 [  13399]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 326 ms 
+2016-01-20 02:11:06,776 [  13400]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-01-20 02:11:06,815 [  13439]   INFO - plication.impl.ApplicationImpl - 73 application components initialized in 3424 ms 
+2016-01-20 02:11:06,828 [  13452]   INFO - .intellij.idea.IdeaApplication - App initialization took 14052 ms 
+2016-01-20 02:11:07,245 [  13869]   INFO - .intellij.idea.IdeaApplication - IdeaApplication.loadProject 
+2016-01-20 02:11:07,246 [  13870]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2016-01-20 02:11:07,246 [  13870]   INFO - ellij.ide.CommandLineProcessor - Dir: null 
+2016-01-20 02:11:07,246 [  13870]   INFO - ellij.ide.CommandLineProcessor - /var/lib/odoo/PycharmProjects/Odoo 
+2016-01-20 02:11:07,246 [  13870]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2016-01-20 02:11:08,340 [  14964]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 1010 ms 
+2016-01-20 02:11:08,488 [  15112]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 148 ms 
+2016-01-20 02:11:10,111 [  16735]   INFO - tartup.impl.StartupManagerImpl - /var/lib/odoo/PycharmProjects/Odoo/.idea/misc.xml case-sensitivity: true 
+2016-01-20 02:11:12,250 [  18874]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 4966 ms 
+2016-01-20 02:11:16,144 [  22768]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 5060ms; general responsiveness: ok; EDT responsiveness: 0/5 sluggish, 1/5 very slow 
+2016-01-20 02:11:22,852 [  29476]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 6707ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:11:22,856 [  29480]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 22527 files to update 
+2016-01-20 02:11:35,606 [  42230]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 02:11:35,631 [  42255]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 15843 auto-detected files
+Elapsed time on auto-detect: 4065 ms 
+2016-01-20 02:11:38,644 [  45268]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update canceled 
+2016-01-20 02:11:38,844 [  45468]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-01-20 02:11:39,163 [  45787]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-01-20 02:11:39,163 [  45787]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-01-20 02:11:39,176 [  45800]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-01-20 02:11:39,234 [  45858]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2016-01-20 02:11:39,235 [  45859]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-01-20 02:11:39,260 [  45884]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-01-20 02:11:39,270 [  45894]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-01-20 02:11:39,267 [  45891]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 02:12:27,546 [    310]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-01-20 02:12:27,565 [    329]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-143.1559.1, 22 Dec 2015 00:00) 
+2016-01-20 02:12:27,565 [    329]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-34-generic, amd64) 
+2016-01-20 02:12:27,565 [    329]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_91-b02 (Oracle Corporation) 
+2016-01-20 02:12:27,565 [    329]   INFO -        #com.intellij.idea.Main - JVM: 24.91-b01 (OpenJDK 64-Bit Server VM) 
+2016-01-20 02:12:27,567 [    331]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/odoo-dev/pycharm-community-5.0.3/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/opt/odoo-dev/pycharm-community-5.0.3/bin/pycharm64.vmoptions -XX:ErrorFile=/var/lib/odoo/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm50 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-01-20 02:12:27,568 [    332]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext: [dnsns.jar, zipfs.jar, sunjce_provider.jar, localedata.jar, libatk-wrapper.so, icedtea-sound.jar, sunpkcs11.jar, java-atk-wrapper.jar] 
+2016-01-20 02:12:27,588 [    352]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 20 ms 
+2016-01-20 02:12:27,743 [    507]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2016-01-20 02:12:28,994 [   1758]   INFO - llij.ide.plugins.PluginManager - 12 plugins initialized in 1130 ms 
+2016-01-20 02:12:28,995 [   1759]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), EditorConfig (1.0), Git Integration (8.1), GitHub (143.1559.1), IDEA CORE (143.SNAPSHOT), IPython Notebook (0.1), Python ReStructureText Integration (1.0), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-01-20 02:12:29,372 [   2136]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=748027904 
+2016-01-20 02:12:29,497 [   2261]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/odoo-dev/pycharm-community-5.0.3/bin/fsnotifier64 
+2016-01-20 02:12:29,514 [   2278]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2016-01-20 02:12:30,790 [   3554]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-01-20 02:12:31,363 [   4127]   INFO - plication.impl.ApplicationImpl - 73 application components initialized in 2353 ms 
+2016-01-20 02:12:31,399 [   4163]   INFO - .intellij.idea.IdeaApplication - App initialization took 4760 ms 
+2016-01-20 02:12:31,784 [   4548]   INFO - .intellij.idea.IdeaApplication - IdeaApplication.loadProject 
+2016-01-20 02:12:31,785 [   4549]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2016-01-20 02:12:31,785 [   4549]   INFO - ellij.ide.CommandLineProcessor - Dir: null 
+2016-01-20 02:12:31,785 [   4549]   INFO - ellij.ide.CommandLineProcessor - /var/lib/odoo/PycharmProjects/Odoo 
+2016-01-20 02:12:31,785 [   4549]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2016-01-20 02:12:33,572 [   6336]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 1545 ms 
+2016-01-20 02:12:33,664 [   6428]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 91 ms 
+2016-01-20 02:12:35,393 [   8157]   INFO - tartup.impl.StartupManagerImpl - /var/lib/odoo/PycharmProjects/Odoo/.idea/misc.xml case-sensitivity: true 
+2016-01-20 02:12:38,483 [  11247]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6574 ms 
+2016-01-20 02:12:40,990 [  13754]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 3484ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish 
+2016-01-20 02:12:42,954 [  15718]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1954ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:12:42,975 [  15739]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 20898 files to update 
+2016-01-20 02:13:04,421 [  37185]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 132 ms 
+2016-01-20 02:13:04,433 [  37197]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-01-20 02:14:01,314 [  94078]   INFO - ellij.vfs.persistent.FSRecords - Contents:16384 of 347582180, reuses:918 of 8674908 for 2200 
+2016-01-20 02:14:11,837 [ 104601]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 88862ms; general responsiveness: 0/88 sluggish, 2/88 very slow; EDT responsiveness: ok 
+2016-01-20 02:14:11,876 [ 104640]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-01-20 02:14:24,908 [ 117672]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 02:14:24,922 [ 117686]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 1 auto-detected files
+Elapsed time on auto-detect: 2 ms 
+2016-01-20 02:14:24,933 [ 117697]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-01-20 02:14:24,947 [ 117711]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-01-20 02:14:24,947 [ 117711]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-01-20 02:14:24,948 [ 117712]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-01-20 02:14:25,007 [ 117771]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2016-01-20 02:14:25,008 [ 117772]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-01-20 02:14:25,044 [ 117808]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-01-20 02:14:25,052 [ 117816]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 02:14:25,058 [ 117822]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-01-20 02:15:11,238 [    279]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-01-20 02:15:11,252 [    293]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-143.1559.1, 22 Dec 2015 00:00) 
+2016-01-20 02:15:11,252 [    293]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-34-generic, amd64) 
+2016-01-20 02:15:11,253 [    294]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_91-b02 (Oracle Corporation) 
+2016-01-20 02:15:11,253 [    294]   INFO -        #com.intellij.idea.Main - JVM: 24.91-b01 (OpenJDK 64-Bit Server VM) 
+2016-01-20 02:15:11,255 [    296]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/odoo-dev/pycharm-community-5.0.3/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/opt/odoo-dev/pycharm-community-5.0.3/bin/pycharm64.vmoptions -XX:ErrorFile=/var/lib/odoo/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm50 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-01-20 02:15:11,255 [    296]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext: [dnsns.jar, zipfs.jar, sunjce_provider.jar, localedata.jar, libatk-wrapper.so, icedtea-sound.jar, sunpkcs11.jar, java-atk-wrapper.jar] 
+2016-01-20 02:15:11,279 [    320]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 24 ms 
+2016-01-20 02:15:11,417 [    458]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2016-01-20 02:15:12,607 [   1648]   INFO - llij.ide.plugins.PluginManager - 12 plugins initialized in 1083 ms 
+2016-01-20 02:15:12,609 [   1650]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), EditorConfig (1.0), Git Integration (8.1), GitHub (143.1559.1), IDEA CORE (143.SNAPSHOT), IPython Notebook (0.1), Python ReStructureText Integration (1.0), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-01-20 02:15:12,982 [   2023]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=748027904 
+2016-01-20 02:15:13,110 [   2151]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/odoo-dev/pycharm-community-5.0.3/bin/fsnotifier64 
+2016-01-20 02:15:13,126 [   2167]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2016-01-20 02:15:14,295 [   3336]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-01-20 02:15:14,825 [   3866]   INFO - plication.impl.ApplicationImpl - 73 application components initialized in 2202 ms 
+2016-01-20 02:15:14,859 [   3900]   INFO - .intellij.idea.IdeaApplication - App initialization took 4493 ms 
+2016-01-20 02:15:15,252 [   4293]   INFO - .intellij.idea.IdeaApplication - IdeaApplication.loadProject 
+2016-01-20 02:15:15,252 [   4293]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2016-01-20 02:15:15,253 [   4294]   INFO - ellij.ide.CommandLineProcessor - Dir: null 
+2016-01-20 02:15:15,253 [   4294]   INFO - ellij.ide.CommandLineProcessor - /var/lib/odoo/PycharmProjects/Odoo 
+2016-01-20 02:15:15,253 [   4294]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2016-01-20 02:15:17,148 [   6189]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 1655 ms 
+2016-01-20 02:15:17,270 [   6311]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 121 ms 
+2016-01-20 02:15:18,814 [   7855]   INFO - tartup.impl.StartupManagerImpl - /var/lib/odoo/PycharmProjects/Odoo/.idea/misc.xml case-sensitivity: true 
+2016-01-20 02:15:20,517 [   9558]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 5146 ms 
+2016-01-20 02:15:21,525 [  10566]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1873ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:15:22,901 [  11942]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1375ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:15:22,902 [  11943]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2016-01-20 02:15:22,993 [  12034]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 91ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:15:23,125 [  12166]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-01-20 02:15:44,194 [  33235]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 16 ms 
+2016-01-20 02:15:44,199 [  33240]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-01-20 02:16:47,515 [  96556]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: editor for id: editor.preferences.import 
+2016-01-20 02:16:53,478 [ 102519]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 02:16:53,485 [ 102526]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 02:16:56,384 [ 105425]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 31 ms 
+2016-01-20 02:16:56,387 [ 105428]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2016-01-20 02:16:56,392 [ 105433]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /var/lib/odoo/.PyCharm50/system/python_stubs/-1247972723 
+2016-01-20 02:16:56,394 [ 105435]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /opt/odoo-dev/pycharm-community-5.0.3/helpers/python-skeletons 
+2016-01-20 02:16:56,419 [ 105460]   INFO - s.impl.ProjectManagerComponent - project roots have changed 
+2016-01-20 02:16:58,284 [ 107325]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 02:16:58,286 [ 107327]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 02:16:58,286 [ 107327]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 02:16:58,286 [ 107327]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 02:16:58,318 [ 107359]   INFO - s.impl.ProjectManagerComponent - project roots have changed 
+2016-01-20 02:17:00,132 [ 109173]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-01-20 02:17:00,137 [ 109178]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-01-20 02:17:00,597 [ 109638]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 302ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:17:02,276 [ 111317]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 2083 ms 
+2016-01-20 02:17:02,278 [ 111319]   INFO - .skeletons.PySkeletonRefresher - Home path is /opt/odoo-dev/pycharm-community-5.0.3 
+2016-01-20 02:17:04,902 [ 113943]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 4299ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:17:04,904 [ 113945]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 4991 files to update 
+2016-01-20 02:17:07,697 [ 116738]   INFO - .skeletons.PySkeletonGenerator - Rebuilding builtin skeletons took 5413 ms 
+2016-01-20 02:17:07,699 [ 116740]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imaging 
+2016-01-20 02:17:07,870 [ 116911]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imagingcms 
+2016-01-20 02:17:08,155 [ 117196]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imagingft 
+2016-01-20 02:17:08,419 [ 117460]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imagingmath 
+2016-01-20 02:17:08,700 [ 117741]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._imagingmorph 
+2016-01-20 02:17:08,977 [ 118018]   INFO - .skeletons.PySkeletonRefresher - Skeleton for PIL._webp 
+2016-01-20 02:17:09,125 [ 118166]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _bsddb 
+2016-01-20 02:17:09,352 [ 118393]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _cffi_backend 
+2016-01-20 02:17:09,667 [ 118708]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_cn 
+2016-01-20 02:17:09,940 [ 118981]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_hk 
+2016-01-20 02:17:10,218 [ 119259]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_iso2022 
+2016-01-20 02:17:10,466 [ 119507]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_jp 
+2016-01-20 02:17:10,761 [ 119802]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_kr 
+2016-01-20 02:17:11,040 [ 120081]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_tw 
+2016-01-20 02:17:11,276 [ 120317]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _csv 
+2016-01-20 02:17:11,433 [ 120474]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ctypes 
+2016-01-20 02:17:11,671 [ 120712]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ctypes_test 
+2016-01-20 02:17:11,850 [ 120891]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses 
+2016-01-20 02:17:11,996 [ 121037]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses_panel 
+2016-01-20 02:17:12,284 [ 121325]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _elementtree 
+2016-01-20 02:17:12,418 [ 121459]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _hashlib 
+2016-01-20 02:17:12,615 [ 121656]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _hotshot 
+2016-01-20 02:17:12,781 [ 121822]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _json 
+2016-01-20 02:17:12,903 [ 121944]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ldap 
+2016-01-20 02:17:13,062 [ 122103]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _lsprof 
+2016-01-20 02:17:13,331 [ 122372]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multibytecodec 
+2016-01-20 02:17:13,512 [ 122553]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multiprocessing 
+2016-01-20 02:17:13,788 [ 122829]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _psutil_linux 
+2016-01-20 02:17:13,970 [ 123011]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _psutil_posix 
+2016-01-20 02:17:14,116 [ 123157]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _sqlite3 
+2016-01-20 02:17:14,362 [ 123403]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ssl 
+2016-01-20 02:17:14,682 [ 123723]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testcapi 
+2016-01-20 02:17:14,939 [ 123980]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _yaml 
+2016-01-20 02:17:15,193 [ 124234]   INFO - .skeletons.PySkeletonRefresher - Skeleton for audioop 
+2016-01-20 02:17:15,422 [ 124463]   INFO - .skeletons.PySkeletonRefresher - Skeleton for bz2 
+2016-01-20 02:17:15,651 [ 124692]   INFO - .skeletons.PySkeletonRefresher - Skeleton for crypt 
+2016-01-20 02:17:15,808 [ 124849]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cryptography._Cryptography_cffi_36a40ff0x2bad1bae 
+2016-01-20 02:17:15,969 [ 125010]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cryptography._Cryptography_cffi_8f86901cxc1767c5a 
+2016-01-20 02:17:16,096 [ 125137]   INFO - .skeletons.PySkeletonRefresher - Skeleton for cryptography._Cryptography_cffi_fc665d23x4f158fee 
+2016-01-20 02:17:16,252 [ 125293]   INFO - .skeletons.PySkeletonRefresher - Skeleton for dbm 
+2016-01-20 02:17:16,435 [ 125476]   INFO - .skeletons.PySkeletonRefresher - Skeleton for fpectl 
+2016-01-20 02:17:16,594 [ 125635]   INFO - .skeletons.PySkeletonRefresher - Skeleton for future_builtins 
+2016-01-20 02:17:16,741 [ 125782]   INFO - .skeletons.PySkeletonRefresher - Skeleton for libxml2mod 
+2016-01-20 02:17:17,003 [ 126044]   INFO - .skeletons.PySkeletonRefresher - Skeleton for libxsltmod 
+2016-01-20 02:17:17,193 [ 126234]   INFO - .skeletons.PySkeletonRefresher - Skeleton for linuxaudiodev 
+2016-01-20 02:17:17,352 [ 126393]   INFO - .skeletons.PySkeletonRefresher - Skeleton for lxml.etree 
+2016-01-20 02:17:18,172 [ 127213]   INFO - .skeletons.PySkeletonRefresher - Skeleton for lxml.objectify 
+2016-01-20 02:17:18,594 [ 127635]   INFO - .skeletons.PySkeletonRefresher - Skeleton for markupsafe._speedups 
+2016-01-20 02:17:18,750 [ 127791]   INFO - .skeletons.PySkeletonRefresher - Skeleton for mmap 
+2016-01-20 02:17:19,085 [ 128126]   INFO - .skeletons.PySkeletonRefresher - Skeleton for nis 
+2016-01-20 02:17:19,337 [ 128378]   INFO - .skeletons.PySkeletonRefresher - Skeleton for ossaudiodev 
+2016-01-20 02:17:19,522 [ 128563]   INFO - .skeletons.PySkeletonRefresher - Skeleton for parser 
+2016-01-20 02:17:19,663 [ 128704]   INFO - .skeletons.PySkeletonRefresher - Skeleton for psycopg2._psycopg 
+2016-01-20 02:17:20,146 [ 129187]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pyexpat 
+2016-01-20 02:17:20,277 [ 129318]   INFO - .skeletons.PySkeletonRefresher - Skeleton for readline 
+2016-01-20 02:17:20,496 [ 129537]   INFO - .skeletons.PySkeletonRefresher - Skeleton for reportlab.lib._rl_accel 
+2016-01-20 02:17:20,725 [ 129766]   INFO - .skeletons.PySkeletonRefresher - Skeleton for reportlab.lib.pyHnj 
+2016-01-20 02:17:20,937 [ 129978]   INFO - .skeletons.PySkeletonRefresher - Skeleton for resource 
+2016-01-20 02:17:21,092 [ 130133]   INFO - .skeletons.PySkeletonRefresher - Skeleton for termios 
+2016-01-20 02:17:21,292 [ 130333]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 13593 ms 
+2016-01-20 02:17:44,677 [ 153718]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 39773ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:18:58,237 [ 227278]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 02:18:58,247 [ 227288]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 1002 auto-detected files
+Elapsed time on auto-detect: 1749 ms 
+2016-01-20 02:18:58,253 [ 227294]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-01-20 02:18:58,275 [ 227316]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-01-20 02:18:58,275 [ 227316]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-01-20 02:18:58,283 [ 227324]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-01-20 02:18:58,350 [ 227391]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2016-01-20 02:18:58,350 [ 227391]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-01-20 02:18:58,360 [ 227401]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-01-20 02:18:58,363 [ 227404]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-01-20 02:18:58,378 [ 227419]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 02:19:43,277 [    301]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-01-20 02:19:43,293 [    317]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-143.1559.1, 22 Dec 2015 00:00) 
+2016-01-20 02:19:43,293 [    317]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-34-generic, amd64) 
+2016-01-20 02:19:43,293 [    317]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_91-b02 (Oracle Corporation) 
+2016-01-20 02:19:43,293 [    317]   INFO -        #com.intellij.idea.Main - JVM: 24.91-b01 (OpenJDK 64-Bit Server VM) 
+2016-01-20 02:19:43,296 [    320]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/odoo-dev/pycharm-community-5.0.3/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/opt/odoo-dev/pycharm-community-5.0.3/bin/pycharm64.vmoptions -XX:ErrorFile=/var/lib/odoo/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm50 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-01-20 02:19:43,296 [    320]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext: [dnsns.jar, zipfs.jar, sunjce_provider.jar, localedata.jar, libatk-wrapper.so, icedtea-sound.jar, sunpkcs11.jar, java-atk-wrapper.jar] 
+2016-01-20 02:19:43,319 [    343]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 23 ms 
+2016-01-20 02:19:43,462 [    486]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2016-01-20 02:19:44,573 [   1597]   INFO - llij.ide.plugins.PluginManager - 12 plugins initialized in 1000 ms 
+2016-01-20 02:19:44,574 [   1598]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), EditorConfig (1.0), Git Integration (8.1), GitHub (143.1559.1), IDEA CORE (143.SNAPSHOT), IPython Notebook (0.1), Python ReStructureText Integration (1.0), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-01-20 02:19:45,037 [   2061]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=748027904 
+2016-01-20 02:19:45,185 [   2209]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/odoo-dev/pycharm-community-5.0.3/bin/fsnotifier64 
+2016-01-20 02:19:45,196 [   2220]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2016-01-20 02:19:46,548 [   3572]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-01-20 02:19:47,102 [   4126]   INFO - plication.impl.ApplicationImpl - 73 application components initialized in 2511 ms 
+2016-01-20 02:19:47,126 [   4150]   INFO - .intellij.idea.IdeaApplication - App initialization took 4743 ms 
+2016-01-20 02:19:47,692 [   4716]   INFO - .intellij.idea.IdeaApplication - IdeaApplication.loadProject 
+2016-01-20 02:19:47,693 [   4717]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2016-01-20 02:19:47,693 [   4717]   INFO - ellij.ide.CommandLineProcessor - Dir: null 
+2016-01-20 02:19:47,693 [   4717]   INFO - ellij.ide.CommandLineProcessor - /var/lib/odoo/PycharmProjects/Odoo 
+2016-01-20 02:19:47,693 [   4717]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2016-01-20 02:19:49,375 [   6399]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 1563 ms 
+2016-01-20 02:19:49,737 [   6761]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 361 ms 
+2016-01-20 02:19:52,632 [   9656]   INFO - tartup.impl.StartupManagerImpl - /var/lib/odoo/PycharmProjects/Odoo/.idea/misc.xml case-sensitivity: true 
+2016-01-20 02:19:54,371 [  11395]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6623 ms 
+2016-01-20 02:19:54,436 [  11460]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 785ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:19:57,054 [  14078]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2614ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:19:57,054 [  14078]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 248 files to update 
+2016-01-20 02:20:01,533 [  18557]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 4479ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:20:03,255 [  20279]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-01-20 02:20:08,607 [  25631]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 37 ms 
+2016-01-20 02:20:08,608 [  25632]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2016-01-20 02:20:08,610 [  25634]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /var/lib/odoo/.PyCharm50/system/python_stubs/-1247972723 
+2016-01-20 02:20:08,612 [  25636]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /opt/odoo-dev/pycharm-community-5.0.3/helpers/python-skeletons 
+2016-01-20 02:20:08,704 [  25728]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-01-20 02:20:08,707 [  25731]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-01-20 02:20:09,339 [  26363]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 623 ms 
+2016-01-20 02:20:09,340 [  26364]   INFO - .skeletons.PySkeletonRefresher - Home path is /opt/odoo-dev/pycharm-community-5.0.3 
+2016-01-20 02:20:09,371 [  26395]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 30 ms 
+2016-01-20 02:20:16,634 [  33658]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 15 ms 
+2016-01-20 02:20:16,640 [  33664]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-01-20 02:21:13,666 [  90690]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: editor for id: editor.preferences.import 
+2016-01-20 02:21:14,621 [  91645]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 02:21:14,621 [  91645]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 02:21:14,626 [  91650]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 02:21:14,621 [  91645]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 02:21:59,933 [ 136957]   INFO - s.impl.ProjectManagerComponent - project roots have changed 
+2016-01-20 02:22:01,171 [ 138195]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 185ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish 
+2016-01-20 02:22:01,467 [ 138491]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 295ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:22:01,468 [ 138492]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2016-01-20 02:22:01,528 [ 138552]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 60ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:22:13,148 [ 150172]   WARN - r.impl.FileDocumentManagerImpl - /opt/odoo-dev/bin/start-debug-odoo.py___jb_bak___ (Permission denied) 
+java.io.FileNotFoundException: /opt/odoo-dev/bin/start-debug-odoo.py___jb_bak___ (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:171)
+	at com.intellij.util.io.SafeFileOutputStream.<init>(SafeFileOutputStream.java:49)
+	at com.intellij.openapi.vfs.impl.local.LocalFileSystemBase.getOutputStream(LocalFileSystemBase.java:497)
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl$5.close(PersistentFSImpl.java:639)
+	at com.intellij.openapi.fileEditor.impl.LoadTextUtil.write(LoadTextUtil.java:275)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl$5.run(FileDocumentManagerImpl.java:464)
+	at com.intellij.pom.core.impl.PomModelImpl.guardPsiModificationsIn(PomModelImpl.java:373)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl.doSaveDocumentInWriteAction(FileDocumentManagerImpl.java:451)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl.doSaveDocument(FileDocumentManagerImpl.java:425)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl.saveAllDocuments(FileDocumentManagerImpl.java:345)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl.saveAllDocuments(FileDocumentManagerImpl.java:324)
+	at com.intellij.openapi.application.impl.ApplicationImpl.saveAll(ApplicationImpl.java:1437)
+	at com.intellij.ide.actions.SaveAllAction.actionPerformed(SaveAllAction.java:27)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher$3.performAction(IdeKeyEventDispatcher.java:595)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processAction(IdeKeyEventDispatcher.java:646)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.inInitState(IdeKeyEventDispatcher.java:485)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.dispatchKeyEvent(IdeKeyEventDispatcher.java:215)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:622)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:381)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2016-01-20 02:22:22,022 [ 159046]   WARN - r.impl.FileDocumentManagerImpl - /opt/odoo-dev/bin/start-debug-odoo.py___jb_bak___ (Permission denied) 
+java.io.FileNotFoundException: /opt/odoo-dev/bin/start-debug-odoo.py___jb_bak___ (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:171)
+	at com.intellij.util.io.SafeFileOutputStream.<init>(SafeFileOutputStream.java:49)
+	at com.intellij.openapi.vfs.impl.local.LocalFileSystemBase.getOutputStream(LocalFileSystemBase.java:497)
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl$5.close(PersistentFSImpl.java:639)
+	at com.intellij.openapi.fileEditor.impl.LoadTextUtil.write(LoadTextUtil.java:275)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl$5.run(FileDocumentManagerImpl.java:464)
+	at com.intellij.pom.core.impl.PomModelImpl.guardPsiModificationsIn(PomModelImpl.java:373)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl.doSaveDocumentInWriteAction(FileDocumentManagerImpl.java:451)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl.doSaveDocument(FileDocumentManagerImpl.java:425)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl.saveAllDocuments(FileDocumentManagerImpl.java:345)
+	at com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl.saveAllDocuments(FileDocumentManagerImpl.java:324)
+	at com.intellij.openapi.application.impl.ApplicationImpl.saveAll(ApplicationImpl.java:1437)
+	at com.intellij.ide.actions.SaveAllAction.actionPerformed(SaveAllAction.java:27)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher$3.performAction(IdeKeyEventDispatcher.java:595)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processAction(IdeKeyEventDispatcher.java:646)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.inInitState(IdeKeyEventDispatcher.java:485)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.dispatchKeyEvent(IdeKeyEventDispatcher.java:215)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:622)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:381)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2016-01-20 02:22:36,605 [ 173629]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 02:22:36,622 [ 173646]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 60 auto-detected files
+Elapsed time on auto-detect: 38 ms 
+2016-01-20 02:22:36,631 [ 173655]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-01-20 02:22:36,664 [ 173688]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-01-20 02:22:36,664 [ 173688]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-01-20 02:22:36,664 [ 173688]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-01-20 02:22:36,748 [ 173772]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2016-01-20 02:22:36,749 [ 173773]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-01-20 02:22:36,752 [ 173776]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-01-20 02:22:36,759 [ 173783]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-01-20 02:22:36,765 [ 173789]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 02:25:11,382 [    264]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-01-20 02:25:11,397 [    279]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-143.1559.1, 22 Dec 2015 00:00) 
+2016-01-20 02:25:11,397 [    279]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-34-generic, amd64) 
+2016-01-20 02:25:11,397 [    279]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_91-b02 (Oracle Corporation) 
+2016-01-20 02:25:11,397 [    279]   INFO -        #com.intellij.idea.Main - JVM: 24.91-b01 (OpenJDK 64-Bit Server VM) 
+2016-01-20 02:25:11,399 [    281]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/odoo-dev/pycharm-community-5.0.3/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/opt/odoo-dev/pycharm-community-5.0.3/bin/pycharm64.vmoptions -XX:ErrorFile=/var/lib/odoo/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm50 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-01-20 02:25:11,400 [    282]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext: [dnsns.jar, zipfs.jar, sunjce_provider.jar, localedata.jar, libatk-wrapper.so, icedtea-sound.jar, sunpkcs11.jar, java-atk-wrapper.jar] 
+2016-01-20 02:25:11,426 [    308]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 26 ms 
+2016-01-20 02:25:11,560 [    442]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2016-01-20 02:25:12,651 [   1533]   INFO - llij.ide.plugins.PluginManager - 12 plugins initialized in 985 ms 
+2016-01-20 02:25:12,653 [   1535]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), EditorConfig (1.0), Git Integration (8.1), GitHub (143.1559.1), IDEA CORE (143.SNAPSHOT), IPython Notebook (0.1), Python ReStructureText Integration (1.0), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-01-20 02:25:13,056 [   1938]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=748027904 
+2016-01-20 02:25:13,219 [   2101]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/odoo-dev/pycharm-community-5.0.3/bin/fsnotifier64 
+2016-01-20 02:25:13,231 [   2113]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2016-01-20 02:25:15,332 [   4214]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-01-20 02:25:15,944 [   4826]   INFO - plication.impl.ApplicationImpl - 73 application components initialized in 3271 ms 
+2016-01-20 02:25:15,978 [   4860]   INFO - .intellij.idea.IdeaApplication - App initialization took 5417 ms 
+2016-01-20 02:25:16,470 [   5352]   INFO - .intellij.idea.IdeaApplication - IdeaApplication.loadProject 
+2016-01-20 02:25:16,471 [   5353]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2016-01-20 02:25:16,471 [   5353]   INFO - ellij.ide.CommandLineProcessor - Dir: null 
+2016-01-20 02:25:16,471 [   5353]   INFO - ellij.ide.CommandLineProcessor - /var/lib/odoo/PycharmProjects/Odoo 
+2016-01-20 02:25:16,471 [   5353]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2016-01-20 02:25:18,343 [   7225]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 1694 ms 
+2016-01-20 02:25:18,477 [   7359]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 133 ms 
+2016-01-20 02:25:21,687 [  10569]   INFO - tartup.impl.StartupManagerImpl - /var/lib/odoo/PycharmProjects/Odoo/.idea/misc.xml case-sensitivity: true 
+2016-01-20 02:25:23,893 [  12775]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 7336 ms 
+2016-01-20 02:25:23,924 [  12806]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1225ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:25:27,775 [  16657]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 3839ms; general responsiveness: ok; EDT responsiveness: 1/4 sluggish 
+2016-01-20 02:25:27,776 [  16658]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2016-01-20 02:25:28,115 [  16997]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 339ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:25:30,519 [  19401]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-01-20 02:25:35,478 [  24360]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 35 ms 
+2016-01-20 02:25:35,481 [  24363]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2016-01-20 02:25:35,483 [  24365]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /var/lib/odoo/.PyCharm50/system/python_stubs/-1247972723 
+2016-01-20 02:25:35,483 [  24365]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /opt/odoo-dev/pycharm-community-5.0.3/helpers/python-skeletons 
+2016-01-20 02:25:35,977 [  24859]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-01-20 02:25:35,977 [  24859]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-01-20 02:25:37,367 [  26249]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 1344 ms 
+2016-01-20 02:25:37,381 [  26263]   INFO - .skeletons.PySkeletonRefresher - Home path is /opt/odoo-dev/pycharm-community-5.0.3 
+2016-01-20 02:25:37,421 [  26303]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 36 ms 
+2016-01-20 02:25:45,832 [  34714]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 15 ms 
+2016-01-20 02:25:45,833 [  34715]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-01-20 02:27:32,651 [ 141533]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-01-20 02:27:32,658 [ 141540]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-01-20 02:27:32,677 [ 141559]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-01-20 02:27:32,677 [ 141559]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-01-20 02:27:32,677 [ 141559]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-01-20 02:27:32,679 [ 141561]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-01-20 02:27:32,679 [ 141561]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-01-20 02:27:32,685 [ 141567]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 02:28:27,950 [    273]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-01-20 02:28:27,965 [    288]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-143.1559.1, 22 Dec 2015 00:00) 
+2016-01-20 02:28:27,965 [    288]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-34-generic, amd64) 
+2016-01-20 02:28:27,965 [    288]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_91-b02 (Oracle Corporation) 
+2016-01-20 02:28:27,965 [    288]   INFO -        #com.intellij.idea.Main - JVM: 24.91-b01 (OpenJDK 64-Bit Server VM) 
+2016-01-20 02:28:27,967 [    290]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/odoo-dev/pycharm-community-5.0.3/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/opt/odoo-dev/pycharm-community-5.0.3/bin/pycharm64.vmoptions -XX:ErrorFile=/var/lib/odoo/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm50 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-01-20 02:28:27,968 [    291]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext: [dnsns.jar, zipfs.jar, sunjce_provider.jar, localedata.jar, libatk-wrapper.so, icedtea-sound.jar, sunpkcs11.jar, java-atk-wrapper.jar] 
+2016-01-20 02:28:27,988 [    311]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 20 ms 
+2016-01-20 02:28:28,122 [    445]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2016-01-20 02:28:29,316 [   1639]   INFO - llij.ide.plugins.PluginManager - 12 plugins initialized in 1092 ms 
+2016-01-20 02:28:29,317 [   1640]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), EditorConfig (1.0), Git Integration (8.1), GitHub (143.1559.1), IDEA CORE (143.SNAPSHOT), IPython Notebook (0.1), Python ReStructureText Integration (1.0), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-01-20 02:28:29,719 [   2042]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=748027904 
+2016-01-20 02:28:29,847 [   2170]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/odoo-dev/pycharm-community-5.0.3/bin/fsnotifier64 
+2016-01-20 02:28:29,857 [   2180]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2016-01-20 02:28:31,182 [   3505]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-01-20 02:28:31,775 [   4098]   INFO - plication.impl.ApplicationImpl - 73 application components initialized in 2436 ms 
+2016-01-20 02:28:31,807 [   4130]   INFO - .intellij.idea.IdeaApplication - App initialization took 4734 ms 
+2016-01-20 02:28:32,200 [   4523]   INFO - .intellij.idea.IdeaApplication - IdeaApplication.loadProject 
+2016-01-20 02:28:32,201 [   4524]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2016-01-20 02:28:32,201 [   4524]   INFO - ellij.ide.CommandLineProcessor - Dir: null 
+2016-01-20 02:28:32,201 [   4524]   INFO - ellij.ide.CommandLineProcessor - /var/lib/odoo/PycharmProjects/Odoo 
+2016-01-20 02:28:32,201 [   4524]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2016-01-20 02:28:33,922 [   6245]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 1555 ms 
+2016-01-20 02:28:34,156 [   6479]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 234 ms 
+2016-01-20 02:28:36,981 [   9304]   INFO - tartup.impl.StartupManagerImpl - /var/lib/odoo/PycharmProjects/Odoo/.idea/misc.xml case-sensitivity: true 
+2016-01-20 02:28:38,986 [  11309]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6712 ms 
+2016-01-20 02:28:39,056 [  11379]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1011ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:28:42,679 [  15002]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 3616ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:28:42,679 [  15002]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2016-01-20 02:28:42,769 [  15092]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 90ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:28:45,384 [  17707]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-01-20 02:28:49,887 [  22210]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 67 ms 
+2016-01-20 02:28:49,889 [  22212]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2016-01-20 02:28:49,891 [  22214]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /var/lib/odoo/.PyCharm50/system/python_stubs/-1247972723 
+2016-01-20 02:28:49,891 [  22214]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /opt/odoo-dev/pycharm-community-5.0.3/helpers/python-skeletons 
+2016-01-20 02:28:49,915 [  22238]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-01-20 02:28:49,915 [  22238]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-01-20 02:28:50,565 [  22888]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 639 ms 
+2016-01-20 02:28:50,568 [  22891]   INFO - .skeletons.PySkeletonRefresher - Home path is /opt/odoo-dev/pycharm-community-5.0.3 
+2016-01-20 02:28:50,582 [  22905]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 13 ms 
+2016-01-20 02:29:01,202 [  33525]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 15 ms 
+2016-01-20 02:29:01,203 [  33526]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-01-20 02:29:55,778 [  88101]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-01-20 02:29:55,781 [  88104]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-01-20 02:29:55,795 [  88118]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-01-20 02:29:55,795 [  88118]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-01-20 02:29:55,795 [  88118]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-01-20 02:29:55,797 [  88120]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-01-20 02:29:55,798 [  88121]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-01-20 02:29:55,805 [  88128]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 02:30:48,755 [    284]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-01-20 02:30:48,770 [    299]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-143.1559.1, 22 Dec 2015 00:00) 
+2016-01-20 02:30:48,770 [    299]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-34-generic, amd64) 
+2016-01-20 02:30:48,770 [    299]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_91-b02 (Oracle Corporation) 
+2016-01-20 02:30:48,770 [    299]   INFO -        #com.intellij.idea.Main - JVM: 24.91-b01 (OpenJDK 64-Bit Server VM) 
+2016-01-20 02:30:48,772 [    301]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/odoo-dev/pycharm-community-5.0.3/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/opt/odoo-dev/pycharm-community-5.0.3/bin/pycharm64.vmoptions -XX:ErrorFile=/var/lib/odoo/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm50 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-01-20 02:30:48,772 [    301]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext: [dnsns.jar, zipfs.jar, sunjce_provider.jar, localedata.jar, libatk-wrapper.so, icedtea-sound.jar, sunpkcs11.jar, java-atk-wrapper.jar] 
+2016-01-20 02:30:48,794 [    323]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 21 ms 
+2016-01-20 02:30:48,925 [    454]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2016-01-20 02:30:49,949 [   1478]   INFO - llij.ide.plugins.PluginManager - 12 plugins initialized in 927 ms 
+2016-01-20 02:30:49,951 [   1480]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), EditorConfig (1.0), Git Integration (8.1), GitHub (143.1559.1), IDEA CORE (143.SNAPSHOT), IPython Notebook (0.1), Python ReStructureText Integration (1.0), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-01-20 02:30:50,352 [   1881]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=748027904 
+2016-01-20 02:30:50,507 [   2036]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/odoo-dev/pycharm-community-5.0.3/bin/fsnotifier64 
+2016-01-20 02:30:50,527 [   2056]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2016-01-20 02:30:51,889 [   3418]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-01-20 02:30:52,423 [   3952]   INFO - plication.impl.ApplicationImpl - 73 application components initialized in 2458 ms 
+2016-01-20 02:30:52,447 [   3976]   INFO - .intellij.idea.IdeaApplication - App initialization took 4543 ms 
+2016-01-20 02:30:52,818 [   4347]   INFO - .intellij.idea.IdeaApplication - IdeaApplication.loadProject 
+2016-01-20 02:30:52,819 [   4348]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2016-01-20 02:30:52,819 [   4348]   INFO - ellij.ide.CommandLineProcessor - Dir: null 
+2016-01-20 02:30:52,820 [   4349]   INFO - ellij.ide.CommandLineProcessor - /var/lib/odoo/PycharmProjects/Odoo 
+2016-01-20 02:30:52,820 [   4349]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2016-01-20 02:30:54,563 [   6092]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 1567 ms 
+2016-01-20 02:30:54,712 [   6241]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 148 ms 
+2016-01-20 02:30:57,800 [   9329]   INFO - tartup.impl.StartupManagerImpl - /var/lib/odoo/PycharmProjects/Odoo/.idea/misc.xml case-sensitivity: true 
+2016-01-20 02:30:59,669 [  11198]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6783 ms 
+2016-01-20 02:31:00,052 [  11581]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1316ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:31:03,632 [  15161]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 3579ms; general responsiveness: ok; EDT responsiveness: 1/4 sluggish 
+2016-01-20 02:31:03,633 [  15162]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2016-01-20 02:31:03,744 [  15273]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 111ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 02:31:06,113 [  17642]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-01-20 02:31:10,858 [  22387]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 28 ms 
+2016-01-20 02:31:10,859 [  22388]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2016-01-20 02:31:10,861 [  22390]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /var/lib/odoo/.PyCharm50/system/python_stubs/-1247972723 
+2016-01-20 02:31:10,861 [  22390]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /opt/odoo-dev/pycharm-community-5.0.3/helpers/python-skeletons 
+2016-01-20 02:31:10,903 [  22432]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-01-20 02:31:10,903 [  22432]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-01-20 02:31:11,550 [  23079]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 615 ms 
+2016-01-20 02:31:11,552 [  23081]   INFO - .skeletons.PySkeletonRefresher - Home path is /opt/odoo-dev/pycharm-community-5.0.3 
+2016-01-20 02:31:11,573 [  23102]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 18 ms 
+2016-01-20 02:31:21,811 [  33340]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 16 ms 
+2016-01-20 02:31:21,811 [  33340]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-01-20 02:31:33,408 [  44937]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-01-20 02:31:33,409 [  44938]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-01-20 02:31:33,426 [  44955]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-01-20 02:31:33,426 [  44955]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-01-20 02:31:33,427 [  44956]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-01-20 02:31:33,428 [  44957]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-01-20 02:31:33,429 [  44958]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-01-20 02:31:33,434 [  44963]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 04:05:31,616 [    260]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-01-20 04:05:31,630 [    274]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-143.1559.1, 22 Dec 2015 00:00) 
+2016-01-20 04:05:31,630 [    274]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-34-generic, amd64) 
+2016-01-20 04:05:31,630 [    274]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_91-b02 (Oracle Corporation) 
+2016-01-20 04:05:31,630 [    274]   INFO -        #com.intellij.idea.Main - JVM: 24.91-b01 (OpenJDK 64-Bit Server VM) 
+2016-01-20 04:05:31,633 [    277]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/odoo-dev/pycharm-community-5.0.3/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/opt/odoo-dev/pycharm-community-5.0.3/bin/pycharm64.vmoptions -XX:ErrorFile=/var/lib/odoo/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm50 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-01-20 04:05:31,633 [    277]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext: [dnsns.jar, zipfs.jar, sunjce_provider.jar, localedata.jar, libatk-wrapper.so, icedtea-sound.jar, sunpkcs11.jar, java-atk-wrapper.jar] 
+2016-01-20 04:05:31,653 [    297]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 20 ms 
+2016-01-20 04:05:31,785 [    429]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2016-01-20 04:05:32,730 [   1374]   INFO - llij.ide.plugins.PluginManager - 12 plugins initialized in 854 ms 
+2016-01-20 04:05:32,731 [   1375]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), EditorConfig (1.0), Git Integration (8.1), GitHub (143.1559.1), IDEA CORE (143.SNAPSHOT), IPython Notebook (0.1), Python ReStructureText Integration (1.0), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-01-20 04:05:33,133 [   1777]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=748027904 
+2016-01-20 04:05:33,203 [   1847]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/odoo-dev/pycharm-community-5.0.3/bin/fsnotifier64 
+2016-01-20 04:05:33,214 [   1858]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2016-01-20 04:05:34,374 [   3018]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-01-20 04:05:34,919 [   3563]   INFO - plication.impl.ApplicationImpl - 73 application components initialized in 2173 ms 
+2016-01-20 04:05:34,946 [   3590]   INFO - .intellij.idea.IdeaApplication - App initialization took 4137 ms 
+2016-01-20 04:05:35,465 [   4109]   INFO - .intellij.idea.IdeaApplication - IdeaApplication.loadProject 
+2016-01-20 04:05:35,466 [   4110]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2016-01-20 04:05:35,467 [   4111]   INFO - ellij.ide.CommandLineProcessor - Dir: null 
+2016-01-20 04:05:35,467 [   4111]   INFO - ellij.ide.CommandLineProcessor - /var/lib/odoo/PycharmProjects/Odoo 
+2016-01-20 04:05:35,467 [   4111]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2016-01-20 04:05:36,883 [   5527]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 1300 ms 
+2016-01-20 04:05:36,980 [   5624]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 97 ms 
+2016-01-20 04:05:39,884 [   8528]   INFO - tartup.impl.StartupManagerImpl - /var/lib/odoo/PycharmProjects/Odoo/.idea/misc.xml case-sensitivity: true 
+2016-01-20 04:05:41,832 [  10476]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6308 ms 
+2016-01-20 04:05:42,009 [  10653]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1066ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish 
+2016-01-20 04:05:44,867 [  13511]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2857ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 04:05:44,869 [  13513]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2016-01-20 04:05:44,982 [  13626]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 113ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 04:05:47,145 [  15789]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-01-20 04:05:52,077 [  20721]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 34 ms 
+2016-01-20 04:05:52,078 [  20722]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2016-01-20 04:05:52,080 [  20724]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /var/lib/odoo/.PyCharm50/system/python_stubs/-1247972723 
+2016-01-20 04:05:52,081 [  20725]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /opt/odoo-dev/pycharm-community-5.0.3/helpers/python-skeletons 
+2016-01-20 04:05:52,111 [  20755]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-01-20 04:05:52,111 [  20755]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-01-20 04:05:52,733 [  21377]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 601 ms 
+2016-01-20 04:05:52,735 [  21379]   INFO - .skeletons.PySkeletonRefresher - Home path is /opt/odoo-dev/pycharm-community-5.0.3 
+2016-01-20 04:05:52,753 [  21397]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 16 ms 
+2016-01-20 04:06:00,322 [  28966]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: editor for id: editor.preferences.import 
+2016-01-20 04:06:04,111 [  32755]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 16 ms 
+2016-01-20 04:06:04,112 [  32756]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-01-20 04:06:05,360 [  34004]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 04:06:05,361 [  34005]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 04:06:05,361 [  34005]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 04:06:05,379 [  34023]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /opt/odoo-dev/pycharm-community-5.0.3/helpers/packaging_tool.py list 
+2016-01-20 04:09:10,738 [ 219382]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 04:09:10,764 [ 219408]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 3 auto-detected files
+Elapsed time on auto-detect: 20 ms 
+2016-01-20 04:09:10,771 [ 219415]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-01-20 04:09:10,802 [ 219446]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-01-20 04:09:10,803 [ 219447]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-01-20 04:09:10,803 [ 219447]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-01-20 04:09:10,863 [ 219507]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2016-01-20 04:09:10,863 [ 219507]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-01-20 04:09:10,866 [ 219510]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-01-20 04:09:10,876 [ 219520]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-01-20 04:09:10,892 [ 219536]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 04:10:42,292 [    312]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-01-20 04:10:42,314 [    334]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-143.1559.1, 22 Dec 2015 00:00) 
+2016-01-20 04:10:42,315 [    335]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-34-generic, amd64) 
+2016-01-20 04:10:42,315 [    335]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_91-b02 (Oracle Corporation) 
+2016-01-20 04:10:42,315 [    335]   INFO -        #com.intellij.idea.Main - JVM: 24.91-b01 (OpenJDK 64-Bit Server VM) 
+2016-01-20 04:10:42,319 [    339]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/odoo-dev/pycharm-community-5.0.3/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/opt/odoo-dev/pycharm-community-5.0.3/bin/pycharm64.vmoptions -XX:ErrorFile=/var/lib/odoo/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm50 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-01-20 04:10:42,319 [    339]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext: [dnsns.jar, zipfs.jar, sunjce_provider.jar, localedata.jar, libatk-wrapper.so, icedtea-sound.jar, sunpkcs11.jar, java-atk-wrapper.jar] 
+2016-01-20 04:10:42,345 [    365]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 26 ms 
+2016-01-20 04:10:42,487 [    507]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2016-01-20 04:10:43,534 [   1554]   INFO - llij.ide.plugins.PluginManager - 12 plugins initialized in 951 ms 
+2016-01-20 04:10:43,535 [   1555]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), EditorConfig (1.0), Git Integration (8.1), GitHub (143.1559.1), IDEA CORE (143.SNAPSHOT), IPython Notebook (0.1), Python ReStructureText Integration (1.0), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-01-20 04:10:43,982 [   2002]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=748027904 
+2016-01-20 04:10:44,080 [   2100]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/odoo-dev/pycharm-community-5.0.3/bin/fsnotifier64 
+2016-01-20 04:10:44,091 [   2111]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2016-01-20 04:10:45,523 [   3543]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-01-20 04:10:46,088 [   4108]   INFO - plication.impl.ApplicationImpl - 73 application components initialized in 2538 ms 
+2016-01-20 04:10:46,114 [   4134]   INFO - .intellij.idea.IdeaApplication - App initialization took 6568 ms 
+2016-01-20 04:10:46,484 [   4504]   INFO - .intellij.idea.IdeaApplication - IdeaApplication.loadProject 
+2016-01-20 04:10:46,485 [   4505]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2016-01-20 04:10:46,485 [   4505]   INFO - ellij.ide.CommandLineProcessor - Dir: null 
+2016-01-20 04:10:46,485 [   4505]   INFO - ellij.ide.CommandLineProcessor - /var/lib/odoo/PycharmProjects/Odoo 
+2016-01-20 04:10:46,485 [   4505]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2016-01-20 04:10:48,576 [   6596]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 1791 ms 
+2016-01-20 04:10:48,765 [   6785]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 189 ms 
+2016-01-20 04:10:51,634 [   9654]   INFO - tartup.impl.StartupManagerImpl - /var/lib/odoo/PycharmProjects/Odoo/.idea/misc.xml case-sensitivity: true 
+2016-01-20 04:10:53,530 [  11550]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6971 ms 
+2016-01-20 04:10:53,735 [  11755]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1059ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 04:10:57,125 [  15145]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 3389ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 04:10:57,136 [  15156]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2016-01-20 04:10:57,274 [  15294]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 138ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 04:10:59,638 [  17658]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-01-20 04:11:04,358 [  22378]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 25 ms 
+2016-01-20 04:11:04,359 [  22379]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2016-01-20 04:11:04,361 [  22381]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /var/lib/odoo/.PyCharm50/system/python_stubs/-1247972723 
+2016-01-20 04:11:04,361 [  22381]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /opt/odoo-dev/pycharm-community-5.0.3/helpers/python-skeletons 
+2016-01-20 04:11:04,412 [  22432]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-01-20 04:11:04,412 [  22432]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-01-20 04:11:04,962 [  22982]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 540 ms 
+2016-01-20 04:11:04,964 [  22984]   INFO - .skeletons.PySkeletonRefresher - Home path is /opt/odoo-dev/pycharm-community-5.0.3 
+2016-01-20 04:11:04,984 [  23004]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 19 ms 
+2016-01-20 04:11:15,818 [  33838]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 20 ms 
+2016-01-20 04:11:15,818 [  33838]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-01-20 04:11:41,238 [  59258]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 04:11:41,253 [  59273]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 2 auto-detected files
+Elapsed time on auto-detect: 2 ms 
+2016-01-20 04:11:41,255 [  59275]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-01-20 04:11:41,267 [  59287]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-01-20 04:11:41,267 [  59287]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-01-20 04:11:41,267 [  59287]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-01-20 04:11:41,335 [  59355]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2016-01-20 04:11:41,336 [  59356]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-01-20 04:11:41,347 [  59367]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-01-20 04:11:41,355 [  59375]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-01-20 04:11:41,353 [  59373]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 04:12:41,543 [    298]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-01-20 04:12:41,558 [    313]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-143.1559.1, 22 Dec 2015 00:00) 
+2016-01-20 04:12:41,558 [    313]   INFO -        #com.intellij.idea.Main - OS: Linux (3.13.0-34-generic, amd64) 
+2016-01-20 04:12:41,558 [    313]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_91-b02 (Oracle Corporation) 
+2016-01-20 04:12:41,558 [    313]   INFO -        #com.intellij.idea.Main - JVM: 24.91-b01 (OpenJDK 64-Bit Server VM) 
+2016-01-20 04:12:41,560 [    315]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/odoo-dev/pycharm-community-5.0.3/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/opt/odoo-dev/pycharm-community-5.0.3/bin/pycharm64.vmoptions -XX:ErrorFile=/var/lib/odoo/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm50 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-01-20 04:12:41,560 [    315]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext: [dnsns.jar, zipfs.jar, sunjce_provider.jar, localedata.jar, libatk-wrapper.so, icedtea-sound.jar, sunpkcs11.jar, java-atk-wrapper.jar] 
+2016-01-20 04:12:41,583 [    338]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 23 ms 
+2016-01-20 04:12:41,710 [    465]   INFO - .intellij.idea.IdeaApplication - WM detected: Compiz 
+2016-01-20 04:12:42,749 [   1504]   INFO - llij.ide.plugins.PluginManager - 12 plugins initialized in 938 ms 
+2016-01-20 04:12:42,751 [   1506]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), EditorConfig (1.0), Git Integration (8.1), GitHub (143.1559.1), IDEA CORE (143.SNAPSHOT), IPython Notebook (0.1), Python ReStructureText Integration (1.0), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-01-20 04:12:43,125 [   1880]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=748027904 
+2016-01-20 04:12:43,248 [   2003]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/odoo-dev/pycharm-community-5.0.3/bin/fsnotifier64 
+2016-01-20 04:12:43,261 [   2016]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2016-01-20 04:12:44,834 [   3589]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-01-20 04:12:45,455 [   4210]   INFO - plication.impl.ApplicationImpl - 73 application components initialized in 2690 ms 
+2016-01-20 04:12:45,487 [   4242]   INFO - .intellij.idea.IdeaApplication - App initialization took 4918 ms 
+2016-01-20 04:12:46,009 [   4764]   INFO - .intellij.idea.IdeaApplication - IdeaApplication.loadProject 
+2016-01-20 04:12:46,010 [   4765]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2016-01-20 04:12:46,010 [   4765]   INFO - ellij.ide.CommandLineProcessor - Dir: null 
+2016-01-20 04:12:46,010 [   4765]   INFO - ellij.ide.CommandLineProcessor - /var/lib/odoo/PycharmProjects/Odoo 
+2016-01-20 04:12:46,010 [   4765]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2016-01-20 04:12:48,084 [   6839]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 1890 ms 
+2016-01-20 04:12:48,237 [   6992]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 153 ms 
+2016-01-20 04:12:48,954 [   7709]   INFO - tartup.impl.StartupManagerImpl - /var/lib/odoo/PycharmProjects/Odoo/.idea/misc.xml case-sensitivity: true 
+2016-01-20 04:12:52,553 [  11308]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 423ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 04:12:52,879 [  11634]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6799 ms 
+2016-01-20 04:12:55,767 [  14522]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 3212ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 04:12:55,768 [  14523]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2016-01-20 04:12:55,944 [  14699]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 176ms; general responsiveness: ok; EDT responsiveness: ok 
+2016-01-20 04:12:58,920 [  17675]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-01-20 04:13:03,054 [  21809]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 41 ms 
+2016-01-20 04:13:03,055 [  21810]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2016-01-20 04:13:03,057 [  21812]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /var/lib/odoo/.PyCharm50/system/python_stubs/-1247972723 
+2016-01-20 04:13:03,058 [  21813]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK "Python 2.7.9 (/usr/bin/python2.7)" (/usr/bin/python2.7): /opt/odoo-dev/pycharm-community-5.0.3/helpers/python-skeletons 
+2016-01-20 04:13:03,076 [  21831]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-01-20 04:13:03,078 [  21833]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-01-20 04:13:03,646 [  22401]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 557 ms 
+2016-01-20 04:13:03,653 [  22408]   INFO - .skeletons.PySkeletonRefresher - Home path is /opt/odoo-dev/pycharm-community-5.0.3 
+2016-01-20 04:13:03,681 [  22436]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 27 ms 
+2016-01-20 04:13:15,299 [  34054]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 19 ms 
+2016-01-20 04:13:15,299 [  34054]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-01-20 04:13:20,607 [  39362]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-20 04:13:20,613 [  39368]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 1 auto-detected files
+Elapsed time on auto-detect: 13 ms 
+2016-01-20 04:13:20,619 [  39374]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-01-20 04:13:20,631 [  39386]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-01-20 04:13:20,631 [  39386]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-01-20 04:13:20,631 [  39386]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-01-20 04:13:20,689 [  39444]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2016-01-20 04:13:20,689 [  39444]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-01-20 04:13:20,693 [  39448]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-01-20 04:13:20,697 [  39452]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-01-20 04:13:20,706 [  39461]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

@@ -1,0 +1,28 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="Git">
+      <project id="Odoo" values="config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.warn.about.detached.enabled,config.save.policy.STASH" collectionTime="1453263199637" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="Odoo" values="PythonConfigurationType" collectionTime="1453263199497" />
+    </group>
+    <group name="py-interpreter">
+      <project id="Odoo" values="Python 2.7.9" collectionTime="1453263199629" />
+    </group>
+    <group name="file-type">
+      <project id="Odoo" values="PLAIN_TEXT,CSS,SQL,Python,JSON,Images,UNKNOWN,XML,JavaScript,Native,HTML,ReST" collectionTime="1453263199619" />
+    </group>
+    <group name="module type">
+      <project id="Odoo" values="PYTHON_MODULE" collectionTime="1453263199496" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="execute.PythonConfigurationType.Debug" count="1" />
+      <entry feature="execute.PythonConfigurationType.Run" count="6" />
+      <entry feature="ide.settings.Project_Interpreter" count="1" />
+      <entry feature="ide.settings.Project_Structure" count="1" />
+      <entry feature="ideaapp.started" count="10" />
+    </counts>
+  </component>
+</application>

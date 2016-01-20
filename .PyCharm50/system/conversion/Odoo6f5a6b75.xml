@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+  </applied-converters>
+  <project-files>
+    <file path="/var/lib/odoo/PycharmProjects/Odoo/.idea/Odoo.iml" timestamp="1453256520000" />
+    <file path="/var/lib/odoo/PycharmProjects/Odoo/.idea/encodings.xml" timestamp="1453254158000" />
+    <file path="/var/lib/odoo/PycharmProjects/Odoo/.idea/misc.xml" timestamp="1453254158000" />
+    <file path="/var/lib/odoo/PycharmProjects/Odoo/.idea/modules.xml" timestamp="1453254158000" />
+    <file path="/var/lib/odoo/PycharmProjects/Odoo/.idea/workspace.xml" timestamp="1453263101000" />
+  </project-files>
+</conversion>
+

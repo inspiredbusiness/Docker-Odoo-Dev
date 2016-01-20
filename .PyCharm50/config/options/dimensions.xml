@@ -1,0 +1,18 @@
+<application>
+  <component name="DimensionService">
+    <location key="com.intellij.ide.util.TipDialog.0.0.1761.1100@144dpi" x="575" y="395" />
+    <location key="#Odoo.0.0.1761.1100@144dpi" x="65" y="172" />
+    <location key="SettingsEditor.0.0.1761.1100@144dpi" x="75" y="116" />
+    <location key="ProcessPopupWindow.0.0.1761.1100@144dpi" x="1009" y="784" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1761.1100@144dpi" x="371" y="290" />
+    <location key="FileChooserDialogImpl.0.0.1761.1100@144dpi" x="507" y="287" />
+    <size key="#Odoo.0.0.1761.1100@144dpi" width="719" height="926" />
+    <size key="SettingsEditor.0.0.1761.1100@144dpi" width="1534" height="984" />
+    <size key="ProcessPopupWindow.0.0.1761.1100@144dpi" width="536" height="238" />
+    <size key="FileChooserDialogImpl.0.0.1761.1100@144dpi" width="640" height="720" />
+    <size key="GridCell.Tab.0.left.0.0.1761.1100@144dpi" width="1272" height="243" />
+    <size key="GridCell.Tab.0.center.0.0.1761.1100@144dpi" width="1272" height="243" />
+    <size key="GridCell.Tab.0.right.0.0.1761.1100@144dpi" width="1272" height="243" />
+    <size key="GridCell.Tab.0.bottom.0.0.1761.1100@144dpi" width="1272" height="243" />
+  </component>
+</application>

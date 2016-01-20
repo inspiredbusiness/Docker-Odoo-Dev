@@ -1,0 +1,17 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="DefaultHtmlDoctype.Refreshed" value="2" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="installation.uid" value="0a5669fd-f72e-4282-a7aa-9b2ecd48577b" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="lastTip" value="1" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="file.chooser.recent.files" value="/opt/odoo-dev/bin" />
+  </component>
+</application>
