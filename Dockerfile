@@ -14,25 +14,18 @@ RUN apt-get update \
 
 USER odoo
 WORKDIR /opt/odoo-dev
-RUN curl http://eclipse.ialto.com/technology/epp/downloads/release/mars/R/eclipse-java-mars-R-linux-gtk-x86_64.tar.gz | tar -xvz
 
-WORKDIR /opt/odoo-dev/eclipse
-RUN ./eclipse \
-	-application org.eclipse.equinox.p2.director \
-	-repository https://dl.bintray.com/fabioz/pydev/4.5.1/ \
-	-installIUs org.python.pydev.feature.feature.group \
-	-noSplash \
-	-clean \
-	-purgeHistory
+RUN curl -L https://download.jetbrains.com/python/pycharm-community-5.0.3.tar.gz | tar xvz
+WORKDIR /opt/odoo-dev/pycharm-community-5.0.3
 
 USER 0
 RUN mkdir -p /opt/odoo-dev/bin
-RUN mkdir -p /opt/odoo-dev/workspace
+RUN mkdir -p /var/lib/odoo/PycharmProjects
 ADD start-debug-odoo.py /opt/odoo-dev/bin/start-debug-odoo.py
 RUN chown odoo /opt/odoo-dev/bin/start-debug-odoo.py
-ADD start-eclipse /opt/odoo-dev/bin/start-eclipse
-RUN chmod +x /opt/odoo-dev/bin/start-eclipse
+ADD start-pycharm /opt/odoo-dev/bin/start-pycharm
+RUN chmod +x /opt/odoo-dev/bin/start-pycharm
 
-VOLUME /opt/odoo-dev/workspace
+VOLUME /var/lib/odoo
 
-ENTRYPOINT ["/opt/odoo-dev/bin/start-eclipse"]
+ENTRYPOINT ["/opt/odoo-dev/bin/start-pycharm"]
