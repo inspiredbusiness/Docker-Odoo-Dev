@@ -7,6 +7,7 @@ set -eo pipefail
 
 echo "Setting up permissions"
 sudo chown odoo:odoo -R /var/lib/odoo
+sudo chown odoo:odoo -R /var/lib/odoo-dev
 #sudo chown odoo:odoo -R /opt/odoo/sources
 sudo chown odoo:odoo -R /opt/odoo/additional_addons
 
