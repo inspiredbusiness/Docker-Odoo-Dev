@@ -26,6 +26,6 @@ RUN chown odoo /opt/odoo-dev/bin/start-debug-odoo.py
 ADD start-pycharm /opt/odoo-dev/bin/start-pycharm
 RUN chmod +x /opt/odoo-dev/bin/start-pycharm
 
-VOLUME /var/lib/odoo
+VOLUME ["/var/lib/odoo", "/opt/odoo-dev/filestore"]
 
 ENTRYPOINT ["/opt/odoo-dev/bin/start-pycharm"]
