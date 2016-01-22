@@ -7,6 +7,7 @@ RUN apt-get update \
             libswt-gtk-3-java \
             curl \
             openjdk-7-jdk \
+            git \
         && mkdir -p /opt/odoo-dev \
         && chown odoo:odoo -R /opt/odoo-dev \
         && mkdir -p /opt/odoo \
